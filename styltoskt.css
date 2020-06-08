@@ -1,0 +1,29 @@
+  
+.jumbotron{
+  text-align: center;
+  background: none;
+}
+.carousel-caption{
+  
+  color: blue;
+}
+.sectionlight{
+  background-color: #eceeef;
+  padding: 2rem;
+}
+.sectiondark{
+  margin-top: 2rem;
+  background-color: #cccccc;
+  padding: 2rem;
+}
+.coolstufrapper{
+  margin-top: 20px;
+  
+}
+.coolstuffbtn{
+  display: block;
+  margin: auto;
+  background-color: red;
+  color: #ffffff;
+
+}
