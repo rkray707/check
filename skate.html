@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--css-->
+    
     <link rel="stylesheet" href="styltoskt.css">
 
     <title>skateweb</title>
@@ -83,7 +85,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+ 
          </div>
          <div class="col"></div>
        </div>
@@ -115,12 +117,149 @@
      <div class="row">
        <div class="col-sm-12">
          <div class="coolstufrapper">
-           <button type="button" class="btn btn-lg coolstuffbtn">get cool stuff</button>
+           <button type="button" class="btn btn-lg coolstuffbtn" data-toggle="modal" data-target="#coolstuffmodal">get cool stuff</button>
          </div>
        </div>
      </div>
     </div>
+
+    <div class="sectionlight">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgcntr" src="imgs/kickflip.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                <button type="button" class="btn btn-lg btn-danger btncenter" data-toggle="modal" data-target=".kickflipmodal-modal-lg">kickflip</button>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgcntr" src="imgs/360flip.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                <button type="button" class="btn btn-lg btn-danger btncenter" data-toggle="modal" data-target=".roundflipmodal-modal-md">360flip</button>
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgcntr" src="imgs/bsk.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                <button type="button" class="btn btn-lg btn-danger btncenter" data-toggle="modal" data-target=".bsk-modal-sm">backside crooked</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <!--cool stuff modal-->
+<div class="modal fade" id="coolstuffmodal" tabindex="-1" role="dialog" aria-labelledby="coolstuffLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contentLabel">Get exclusive content</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <img class="img-fluid place" src="imgs/logosk.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+            <div class="modalformrapper">
+              <form>
+                <div class="form-group">
+                  <label for="forname">what,s your name?</label>
+                  <input type="text" class="form-control" id="form-name" placeholder="name">
+                </div>
+                <div class="form-group">
+                  <label for="foremail">where should we send your content</label>
+                  <input type="text" class="form-control" id="form-email" placeholder="email">
+                </div>
+              </form>
+            </div>
+          </div>
+         </div>
+      </div>
+      </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
    </div>
+
+     <!--kick flip modal-->
+     <div class="modal fade kickflipmodal-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>kickflip are easy. pop, flick, catch, land. #Boom</p>
+        </div>
+      </div>
+    </div>
+
+    <!--360flip-->
+    <div class="modal fade roundflipmodal-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>kickflip are easy. pop, flick, catch, land. #Boom</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--back side crooked-->
+    <div class="modal fade bsk-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>backside flip are sick. nollie in, nollie out! #Boom</p>
+        </div>
+      </div>
+    </div>
+
+
+    
+    
+
+
+
+
+
+
+
 
 
     <!-- Optional JavaScript -->

@@ -27,3 +27,25 @@
   color: #ffffff;
 
 }
+h5.modal-title{
+  margin: auto;
+}
+.place{
+  display: block;
+  margin: auto;
+}
+.modalformrapper {
+  padding: 2rem;
+}
+.imgcntr{
+  display: block;
+  margin: auto;
+}
+.btncenter{
+  width: 315px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
